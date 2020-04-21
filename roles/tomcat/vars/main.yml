@@ -1,0 +1,20 @@
+---
+
+tomcat_source: /tmp 
+
+CATALINA_HOME: /data
+
+download_source: https://archive.apache.org/dist/tomcat/tomcat-8/v8.0.32/bin/apache-tomcat-8.0.32.tar.gz
+
+service_config: /usr/lib/systemd/system
+
+pkg_name: apache-tomcat-8.0.32.tar.gz
+
+pkg_dir: apache-tomcat-8.0.32
+
+CONFIG_DIR: roles/tomcat/files
+CONFIG_DIR1: /tmp
+
+java_source: <Enter the path or url here>
+java_name: jdk1.8.0_121
+
